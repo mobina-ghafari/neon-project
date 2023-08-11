@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تی وی</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/f0cc3ee564.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-white navbar-light navbar-expand-md font-weight-bold" style="box-shadow: 0px -12px 7px 10px rgba(0, 0, 0, 0.2);">
+        <a href="./index.html" class="navbar-brand">نئون</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="mycollapse">
+            <ul class="navbar-nav  mr-3">
+                <li class="nav-item ml-3">
+                    <a href="./courses.html" class="nav-link">دوره های آموزشی</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a href="./post.html" class="nav-link">پست ها</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a href="./tv.html" class="nav-link">تی وی</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a href="" class="nav-link">کانال تلگرام</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">ثبت نام / ورود</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid myheader p-5">
+        <div class=" p-5 header-section text-white text-center justify-content-center align-item-center">
+            <h1 style=" font-family: impact; font-size: 3em; letter-spacing: .2em;" class=" text-center glow m-4"> NEON TV
+                <i class="fas fa-video"></i></h1>
+        </div>
+    </div>
+    <div class="container pb-5">
+        <div class="card-body border rounded mt-3">
+            <form action="" class="form-inline">
+                <div class="input-group ml-3 mb-1 mt-1">
+                    <input value name="search" type="text" class="form-control">
+                    <div class="input-group-append" style="cursor: pointer;">
+                        <span class="input-group-text bg-info text-white">جستجو</span>
+                    </div>
+                </div>
+                <select name="cat" id="cat" class="form-control ml-3 mt-1 mb-1 font-weight-bold px-3">
+                    <option value="null">دسته بندی</option>
+                    <option value="">برنامه نویسی</option>
+                    <option value="">عمومی</option>
+                    <option value="">سرگرمی</option>
+                    <option value="">تکنولوژی</option>
+                    <option value="">شخصی</option>
+                    <option value="">انگیزه بخش</option>
+                    <option value="">موفقیت</option>
+                </select>
+                <select name="cat" id="cat" class="form-control ml-3 mt-1 mb-1 font-weight-bold px-3">
+                    <option value="null">جدیدترین ها</option>
+                    <option value="">قدیمی ترین ها</option>
+                    <option value="">پربازدیدترین ها</option>
+                </select>
+            </form>
+        </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="">
+                        <div class="card mb-5 mt-5">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3" style="position: relative;">
+                                            <img class="w-100" style="border-radius: 10px;" src="./img/mark.jpg" alt="">
+                                        </div>
+                                        <div style="position: absolute; top: 0px; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                            <i style="font-size: 2.5em; color: #e74c3c; opacity: 0.8;" class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mt-2">
+                                            <h6 class="font-weight-bold text-dark text-right">مارک زاکر برگ : چرا حلقه ها ارزشمند هستند</h6>
+                                        <span class="font-weight-bold text-muted d-block text-right mt-3"><i class="far fa-clock ml-2"></i> ۲ دقیقه</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <script src="./code.jquery.com_jquery-3.7.0.slim.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
